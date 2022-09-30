@@ -1,7 +1,24 @@
 # Job Portal
 Job Opps.    
 
+Job portal is a web application where the candidates can register and search for suitable jobs and employers can register to post job vacancies at their company. The application provides job catalogue and information which helps the candidates decide which jobs to apply for.
 
+The 2 user roles are Employee and Employer
+
+Employee
+Can search for jobs based on different criterias ( Job title )
+Apply for any number of jobs
+View applied jobs in the dashboard
+Employer
+Can add / update / delete jobs
+Can view job applications ( Only for their jobs ) 
+
+## Tech Stack
+Django
+Bootstrap 4
+HTML / CSS
+sqlite
+javascript
 ## Installation 
 
 ```
