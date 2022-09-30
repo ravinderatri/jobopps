@@ -1,0 +1,96 @@
+{% load static %}
+<div class="loader">
+  <div class="d-table">
+  <div class="d-table-cell">
+  <div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+<div class="navbar-area navbar-area-two fixed-top">
+
+  <div class="mobile-nav">
+  <a href="{% url 'jobapp:home' %}" class="logo">
+  Rkey 
+  </a>
+  </div>
+  
+  <div class="main-nav">
+  <div class="container">
+  <nav class="navbar navbar-expand-md navbar-light">
+  <a class="navbar-brand" href="{% url 'jobapp:home' %}">
+
+    <img src="{% static 'images/logo.png' %}" alt="logo">
+  </a>
+  <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+  <ul class="navbar-nav">  
+  <li class="nav-item">
+    <a href="{% url 'jobapp:home' %}" class="nav-link">Home</a> 
+  </li>
+  <!-- <li class="nav-item"> 
+  <a href="{% url 'jobapp:about' %}" class="nav-link">About</a>
+  </li>  -->
+   <!-- <li class="nav-item"> <a href="{% url 'jobapp:job-list' %}">Job Listings</a></li> -->
+   <!-- <li class="nav-item"> <a href="#">Contact</a></li> -->
+ 
+   <li class="nav-item"> 
+    {% if user.is_authenticated and user.role == 'employer'  %}
+    <a href="{% url 'jobapp:create-job' %}"
+      class="js-clone-nav pr-3 btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span
+        class="mr-2 icon-add"></span>Post Job</a>  
+   <li class="nav-item"> 
+          <a class="nav-link dropdown-toggle">Dashboard</a> 
+          <ul class="dropdown-menu">
+            <li><a href="{% url 'jobapp:dashboard' %}">Dashboard</a></li>
+            <li><a href="{% url 'account:logout' %}">Logout</a></li>
+          </ul>
+        </li>
+
+    {% elif user.is_authenticated %} 
+<li class="nav-item">
+  <a class="nav-link dropdown-toggle">Profile <i class="icofont-simple-down"></i></a>
+  <ul class="dropdown-menu">
+    <li class="nav-item"><a href="{% url 'account:edit-profile' request.user.id %}">Edit Settings</a></li>
+  </ul>
+</li>
+<li class="nav-item">
+  <a class="nav-link dropdown-toggle">Dashboard <i class="icofont-simple-down"></i></a>
+  <ul class="dropdown-menu">
+    <li class="nav-item">
+      <a href="{% url 'jobapp:dashboard' %}">Dashboard</a>
+    </li>
+    <li class="nav-item"><a href="{% url 'account:logout' %}">Logout</a></li>
+  </ul>
+</li> 
+    {% else %}
+
+    
+<li class="nav-item">
+  <a class="nav-link dropdown-toggle">Register <i class="icofont-simple-down"></i></a>
+      <ul class="dropdown-menu">
+        <li class="nav-item"><a href="{% url 'account:employer-registration' %}">Employer</a></li>
+        <li class="nav-item"><a href="{% url 'account:employee-registration' %}">Employee</a></li>
+      </ul>
+    </li>
+    
+  </ul>
+  <div class="common-btn">
+    <a class="login-btn" href="{% url 'account:login' %}">
+    <i class="icofont-plus-square"></i>
+    Login
+    </a> 
+  {% endif %}
+  </div>
+  </nav>
+  </div>
+  </div>
+  </div>
+
+
+  

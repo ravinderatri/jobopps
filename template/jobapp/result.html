@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<!-- HOME -->
+<div class="page-title-area">
+  <div class="d-table">
+  <div class="d-table-cell">
+  <div class="container">
+  <div class="page-title-text">
+  <h2>Jobs</h2>
+  <ul>
+  <li>
+  <a href="index.html">Home</a>
+  </li>
+  <li>
+  <i class="icofont-simple-right"></i>
+  </li>
+  <li>Job List</li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+  <section class="job-area job-area-two pt-100">
+    <div class="container">
+    <div class="row">
+      {% for job in page_obj %}
+    <div class="col-lg-6">
+      <a href="{% url 'jobapp:single-job' job.id %}">
+    <div class="job-item">
+    <img src="{% static '/images/6.png' %}" alt="Job">
+    <div class="job-inner align-items-center">
+    <div class="job-inner-left">
+    <h3> 
+    {{ job.title }}
+    </h3>
+    <ul>
+    <li>
+      {% if job.job_type == '1' %}
+      <span class="badge badge-primary">
+        Full Time
+      </span>
+      {% elif job.job_type == '2'%}
+      <span class="badge badge-danger">
+        Part Time
+      </span>
+      {% else  %}
+      <span class="badge badge-info">
+        Internship
+      </span>
+      {% endif %}</li>
+    <li ><i class="icofont-location-pin"></i> {{ job.location }}</li>
+  </ul>
+  <p>{{ job.description | safe | truncatechars:100}}</p>
+    </div>
+    </div>
+    </div>
+  
+  </a>
+</div>
+{% endfor %}
+    </div> 
+    {% include 'jobapp/paginator.html' %} 
+  </div>   
+</section>
+
+{% endblock content %}
+

@@ -1,0 +1,396 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- HOME -->
+
+<div class="banner-area banner-area-three">
+  <div class="d-table">
+  <div class="d-table-cell">
+  <div class="container">
+  <div class="banner-text">
+  <h1>Search Here For <span>Better</span> Job</h1>
+  <p>Jobs, Employment & Future Career Opportunities</p>
+  <div class="banner-form-area">
+    <form method="GET" action="{% url 'jobapp:search_result' %}" >
+      {% include 'jobapp/search.html' %}
+    </form>
+  
+  </div>
+  </div>
+  <div class="banner-img">
+  <img src="{% static '/images/banner.png' %}" alt="Banner">
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+<section class="category-area ptb-100">
+  <div class="container">
+  <div class="section-title">
+  <h2>Choose Your Desire Category</h2>
+  </div>
+  <div class="row">
+  <div class="col-sm-3 col-lg-3 category-border">
+  <div class="category-item">
+  <i class="flaticon-settings"></i>
+  <a href="#">Technical Support</a>
+  </div>
+  </div>
+  <div class="col-sm-3 col-lg-3 category-border">
+  <div class="category-item category-two">
+  <i class="flaticon-layers"></i>
+  <a href="#">Business Development</a>
+  </div>
+  </div>
+  <div class="col-sm-3 col-lg-3 category-border">
+  <div class="category-item category-three">
+  <i class="flaticon-house"></i>
+  <a href="#">Real Estate Business</a>
+  </div>
+  </div>
+  <div class="col-sm-3 col-lg-3 category-border">
+  <div class="category-item category-four">
+  <i class="flaticon-analysis"></i>
+  <a href="#">Share Maeket Analysis</a>
+  </div>
+  </div>
+  <div class="col-sm-3 col-lg-3 category-border-three">
+  <div class="category-item category-five">
+  <i class="flaticon-sun"></i>
+  <a href="#">Weather & Environment</a>
+  </div>
+  </div>
+  <div class="col-sm-3 col-lg-3 category-border-two">
+  <div class="category-item category-six">
+  <i class="flaticon-hand"></i>
+  <a href="#">Finance & Banking Service</a>
+  </div>
+  </div>
+  <div class="col-sm-3 col-lg-3 category-border-two">
+  <div class="category-item category-seven">
+  <i class="flaticon-neural"></i>
+  <a href="#">IT & Networing Sevices</a>
+  </div>
+  </div>
+  <div class="col-sm-3 col-lg-3 category-border-two">
+  <div class="category-item category-eight">
+  <i class="flaticon-dish"></i>
+  <a href="#">Restaurant Services</a>
+  </div>
+  </div>
+  <div class="col-sm-3 offset-sm-3 offset-lg-0 col-lg-3 category-border-two">
+  <div class="category-item category-nine">
+  <i class="icofont-fire-burn"></i>
+  <a href="#">Defence & Fire Service</a>
+  </div>
+  </div>
+  <div class="col-sm-3 col-lg-3">
+  <div class="category-item category-ten">
+  <i class="flaticon-truck"></i>
+  <a href="#">Home Delivery Services</a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  
+  
+  <div class="portal-area pb-70">
+  <div class="container">
+  <div class="row align-items-center">
+  <div class="col-lg-6">
+  <div class="portal-item">
+  <div class="row">
+  <div class="col-lg-7">
+  
+  <img src="{% static '/images/1.jpg' %}" alt="Banner">
+  </div>
+  <div class="col-lg-5">
+    <img src="{% static '/images/2.jpg' %}" alt="Banner">
+  </div>
+  </div>
+  <div class="portal-trusted">
+  <span>100% Trusted</span>
+  </div>
+  </div>
+  </div>
+  <div class="col-lg-6">
+  <div class="portal-item portal-right">
+  <h2>Trusted & Popular Job Portal</h2>
+  
+  <p>200+ ready job-role tests, 2,000+ skills including Digital Skills, Enterprise Applications, Cloud, Infrastructure Management, Application Development, Aptitude, & more
+
+  </p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="counter-area pt-100 pb-70">
+    <div class="container">
+    <div class="row">
+    <div class="col-6 col-sm-3 col-lg-3">
+    <div class="counter-item">
+    <i class="flaticon-employee"></i>
+    <h3>
+    <span class="odometer odometer-auto-theme" data-count="14"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">4</span></span></span></span></span></div></span>
+    <span class="target">k+</span>
+    </h3>
+    <p>Job Available</p>
+    </div>
+    </div>
+    <div class="col-6 col-sm-3 col-lg-3">
+    <div class="counter-item">
+    <i class="flaticon-curriculum"></i>
+    <h3>
+    <span class="odometer odometer-auto-theme" data-count="18"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">8</span></span></span></span></span></div></span>
+    <span class="target">k+</span>
+    </h3>
+    <p>CV Submitted</p>
+    </div>
+    </div>
+    <div class="col-6 col-sm-3 col-lg-3">
+    <div class="counter-item">
+    <i class="flaticon-enterprise"></i>
+    <h3>
+    <span class="odometer odometer-auto-theme" data-count="9"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">9</span></span></span></span></span></div></span>
+    <span class="target">k+</span>
+    </h3>
+    <p>Companies</p>
+    </div>
+    </div>
+    <div class="col-6 col-sm-3 col-lg-3">
+    <div class="counter-item">
+    <i class="flaticon-businessman-paper-of-the-application-for-a-job"></i>
+    <h3>
+    <span class="odometer odometer-auto-theme" data-count="35"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">3</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span></div></span>
+    <span class="target">k+</span>
+    </h3>
+    <p>Appointed to Job</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+<div class="popular-area pt-100 pb-70">
+  <div class="container">
+  <div class="row align-items-center">
+  <div class="col-lg-6">
+  <div class="popular-item">
+  <div class="row align-items-center">
+  <div class="col-lg-7"> 
+  <img src="{% static '/images/3.jpg' %}" alt="Banner">
+  </div>
+  <div class="col-lg-5">
+  <div class="practice-inner"> 
+    <img src="{% static '/images/4.jpg' %}" alt="Banner">    
+  <img src="{% static '/images/5.jpg' %}" alt="Banner">
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="col-lg-6">
+  <div class="popular-item popular-right">
+  <div class="section-title text-left">
+  <h2>Why We are Most Popular</h2>
+  </div>
+  <p>
+Provide candidates with the ultimate flexibility to answer your questions on their own time in a pre-recorded video interview.
+
+Gain more insight on candidates than a phone interview
+Review the completed video interviews at your convenience
+Interview significantly more people in way less time
+  </p>
+  <div class="row popular-wrap">
+  <div class="col-sm-6 col-lg-6">
+  <ul>
+  <li>
+  <i class="flaticon-approved"></i>
+  Trusted & Quality Job
+  </li>
+  <li>
+  <i class="flaticon-no-money"></i>
+  No Extra Charge
+  </li>
+  </ul>
+  </div>
+  <div class="col-sm-6 col-lg-6">
+  <ul>
+  <li>
+  <i class="flaticon-enterprise"></i>
+  Top Companies
+  </li>
+  <li>
+  <i class="flaticon-employee"></i>
+  International Job
+  </li>
+  </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+ 
+<section id="ajax_listing_paginattion" class="site-section">
+  <div class="container">
+
+    {% if page_obj %}
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-7 text-center">
+        <h2 class="section-title mb-2">{{ total_jobs }} Job Listed</h2>
+      </div>
+    </div>
+
+
+    <ul id="job" class="job-listings mb-5">
+      {% for job in page_obj %}
+      <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+        <a href="{% url 'jobapp:single-job' job.id %}"></a>
+        <div class="job-listing-logo">
+          <img src="{% static 'images/i.jpg' %}" alt="Free Website Template by Free-Template.co"
+            class="img-fluid">
+        </div>
+
+        <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+          <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+            <h2>{{ job.title }}</h2>
+            <strong>{{ job.company_name }}</strong>
+          </div>
+          <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+            <span class="icon-room"></span> {{ job.location }}
+          </div>
+          <div class="job-listing-meta">
+            {% if job.job_type == '1' %}
+            <span class="badge badge-success">
+              Full Time
+            </span>
+            {% elif job.job_type == '2'%}
+            <span class="badge badge-danger">
+              Part Time
+            </span>
+            {% else  %}
+            <span class="badge badge-info">
+              Internship
+            </span>
+            {% endif %}
+          </div>
+        </div>
+
+      </li>
+      {% endfor %}
+    </ul>
+    {% include 'jobapp/paginator.html' %}
+  </div>
+  {% endif %}
+</section>
+
+ 
+
+
+{% endblock %}
+{% block extra_scripts %}
+<script>
+
+$("#ajax_listing_paginattion" ).delegate( "a#ajax_paginator", "click", function( event ) {
+		event.preventDefault();
+    joblist = ``
+    next_paging = ``
+    prev_paging = ``
+    page_navigator = ``
+		var page_ref = $(this).attr('href');
+    var page_number = page_ref.slice(6);
+    console.log('page_number', page_number);
+		$.ajax({
+					type: "GET",
+					url: "{% url 'jobapp:home' %}", 
+					data : {    
+          page : page_number, 
+				},
+        success: function (response) {
+          $('#job').html('')
+                    response.job_lists.map(function (job) {
+
+                        joblist+=`
+                          <li id="next" class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
+                            <a href="/job/${job.id}/"></a>
+                              <div class="job-listing-logo">
+                                <img src="{% static 'images/i.jpg' %}" alt="Free Website Template by Free-Template.co"
+                                  class="img-fluid">
+                              </div>
+
+                              <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
+                                <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
+                                  <h2>${ job.title }</h2>
+                                  <strong>${ job.company_name }</strong>
+                                </div>
+                                <div class="job-listing-location mb-3 mb-sm-0 custom-width w-25">
+                                  <span class="icon-room"></span>${ job.location } 
+                                </div>
+                                
+                                <div class="job-listing-meta">
+                                  ${ job.job_type == '1'
+                                  ?  
+                                  `<span class="badge badge-success">
+                                    Full Time
+                                  </span>`
+                                  : 
+                                  job.job_type == '2' 
+                                  ?  
+                                  `<span class="badge badge-danger">
+                                    Part Time
+                                  </span>` 
+                                  :
+                                  `<span class="badge badge-info">
+                                    Internship
+                                  </span>
+                                  `
+                                  }
+                                </div>
+                              </div>
+                            </li>
+                        ` 
+                      })
+
+                        $('#job').html(joblist)
+                        response.next_page_number != null ?
+                        next_paging+=`<a id="ajax_paginator" class="next" href="?page=${ response.next_page_number }">Next</a>`
+                        : ''
+
+                        $('div>#next_page').html(next_paging)
+                        $('div>.active').removeClass('active')
+                        $('div>.ajax_paginator_'+response.current_page_no).addClass('active')
+                        
+                        // .attr('href','http://example.com')
+                        // .removeAttr("href");
+                        
+                        response.current_page_no > 1 ?
+                        prev_paging+=`<a id="ajax_paginator" href="?page=${ response.prev_page_number }" class="prev">Prev</a>`
+                        : ''
+                        $('div>#prev_page').html(prev_paging)
+
+                        page_navigator+=`Showing ${ response.current_page_no } of ${ response.no_of_page } Pages`
+                        $('div>#page_navigator').html(page_navigator)
+                      
+                    },
+                    
+				error: function () {
+					alert('Error Occured');
+				}
+			});
+
+	});  
+  
+  
+	</script>
+{% endblock %}
+
+
