@@ -42,15 +42,15 @@ python manage.py runserver
 
 ![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20203405.png)
 ![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20204851.png)
-![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 204947.png)
-![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 205012.png)
-![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 205030.png)
-![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 205048.png)
-![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 205147.png)
-![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 205211.png)
-![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 205306.png)
-![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 205324.png)
+![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20204947.png)
+![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20205012.png)
+![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20205030.png)
+![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20205048.png)
+![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20205147.png)
+![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20205211.png)
+![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20205306.png)
+![Settings Window](https://github.com/ravinderatri/jobfinder/blob/master/screenshots/Screenshot%202022-09-30%20205324.png)
 <div align="center">
-    <h3>========Thank You=========</h3>
+    <h3>========Thank You====😍😍=====</h3>
 </div>
 
