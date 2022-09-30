@@ -1,15 +1,15 @@
 # Job Portal
-Django Job Portal.    
+Job Opps.    
 
 
 ## Installation 
 
 ```
 open terminal and type
-https://github.com/Sany07/Job-Portal.git
+https://github.com/ravinderatri/jobfinder.git
 
 or simply download using the url below
-https://github.com/Sany07/Job-Portal.git
+https://github.com/ravinderatri/jobfinder.git
 ```
 
 ## Install requirements
@@ -40,18 +40,16 @@ python manage.py collectstatic
 python manage.py runserver
 ```
 
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-2020-05-08-17_03_46.png)
-
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-jobs-2020-05-08-17_40_01.png)
-
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-job-79-2020-05-08-16_59_55.png)
-
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-job-create-2020-05-08-17_00_46.png)
-
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-dashboard-2020-05-08-17_01_07.png)
-
-![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/screencapture-127-0-0-1-8000-dashboard-employer-job-54-applicants-2020-05-08-17_01_34.png)
-
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 203405.png)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 204851.png)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 204947.png)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 205012.png)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 205030.png)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 205048.png)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 205147.png)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 205211.png)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 205306.png)
+![Settings Window](https://raw.github.com/Sany07/Django-Job-Portal/master/screenshots/Screenshot 2022-09-30 205324.png)
 <div align="center">
     <h3>========Thank You=========</h3>
 </div>

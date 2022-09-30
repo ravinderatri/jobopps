@@ -1,3 +1,4 @@
+{% load static %}
 <footer class="pt-4">
   <div class="container">
   
@@ -5,11 +6,12 @@
   <div class="row">
   <div class="col-sm-6 col-lg-3">
   <div class="footer-item">
-    <div class="footer-category">
-    <h3>Rkey</h3>
-  </div>
+    
   <div class="footer-logo">
-  
+    <a class="navbar-brand" href="{% url 'jobapp:home' %}">
+
+      <img width="130" src="{% static 'images/footerlogo.png' %}" alt="logo">
+    </a>
   <ul>
  
   <li>
@@ -22,11 +24,7 @@
   <i class="icofont-instagram"></i>
   </a>
   </li>
-   <li>
-  <a href="https://www.twitter.com/" target="_blank">
-  <i class="icofont-twitter"></i>
-  </a>
-  </li>
+ 
   </ul>
   </div>
   </div>
@@ -78,7 +76,7 @@
   <div class="row">
   <div class="col-lg-12 text-center">
   <div class="copyright-item">
-  <p>Copyright © <script>document.write(new Date().getFullYear())</script> Rkey Job Solution </p>
+  <p>Copyright © <script>document.write(new Date().getFullYear())</script> Job Opps </p>
   </div>
   </div>
   
