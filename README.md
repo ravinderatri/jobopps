@@ -17,7 +17,7 @@ Can view job applications ( Only for their jobs )
 Django
 Bootstrap 4
 HTML / CSS
-sqlite
+sqlite3
 javascript
 ## Installation 
 
