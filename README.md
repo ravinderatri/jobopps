@@ -40,7 +40,7 @@ python manage.py collectstatic
 python manage.py runserver
 ```
 
-![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 203405.png)
+![Settings Window](https://github.com/ravinderatri/jobfinder/screenshots/Screenshot 2022-09-30 203405.png)
 ![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 204851.png)
 ![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 204947.png)
 ![Settings Window](https://github.com/ravinderatri/jobfinder/master/screenshots/Screenshot 2022-09-30 205012.png)
