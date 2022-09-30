@@ -41,8 +41,7 @@ button:focus{outline:0}
 .common-btn .sign-up-btn{color:#fff;border:1px solid;border-image-source:linear-gradient(90deg,#38a745 0%,#4cce5b 63%);border-image-slice:1}
 .common-btn .sign-up-btn:before{position:absolute;content:'';width:100%;height:100%;left:0;top:0;opacity:1;background:-webkit-gradient(linear,left top,right top,from(#38a745),color-stop(63%,#4cce5b));background:linear-gradient(90deg,#38a745 0%,#4cce5b 63%);-webkit-transition:.5s all ease;transition:.5s all ease;z-index:-1}
 .common-btn .sign-up-btn:hover{color:#333}
-.common-btn .sign-up-btn:hover:before{width:0;opacity:0}
-.banner-img-one{background-image:url(../img/home-1/banner.jpg)}
+.common-btn .sign-up-btn:hover:before{width:0;opacity:0} 
 .banner-area{background-size:cover;background-position:center center;background-repeat:no-repeat;height:880px;position:relative}
 .banner-area:before{position:absolute;content:'';width:100%;height:100%;top:0;left:0;background-color:#000;opacity:.6}
 .banner-text{position:relative;text-align:center;margin-top:75px}
@@ -205,7 +204,7 @@ button:focus{outline:0}
 .profile-item .profile-inner a:hover{letter-spacing:1px}
 .profile-item .profile-inner .profile-heart{position:absolute;bottom:25px;right:25px}
 .profile-item .profile-inner .profile-heart a{display:inline-block;text-align:center;width:30px;height:30px;line-height:30px;font-size:15px;border:1px solid #dedede;border-radius:50%;background:-webkit-gradient(linear,left top,right top,from(#38a745),color-stop(63%,#4cce5b));background:linear-gradient(90deg,#38a745 0%,#4cce5b 63%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.app-area{background-image:url(../img/home-1/app-bg.png);background-size:cover;background-position:center center;background-repeat:no-repeat}
+.app-area{background-size:cover;background-position:center center;background-repeat:no-repeat}
 .app-item{padding-top:150px;padding-bottom:130px;margin-bottom:30px;position:relative}
 .app-item img{position:absolute}
 .app-item img:first-child{top:0;right:25px;z-index:1;-webkit-animation:app-a-one 6s infinite linear;animation:app-a-one 6s infinite linear}
@@ -359,7 +358,6 @@ footer{    background: #3caf49;background-size:cover;background-position:center 
 .copyright-item ul li a{color:#fff;display:block}
 .copyright-item ul li a:hover{color:#333}
 .copyright-right{text-align:right}
-.banner-img-two{background-image:url(../img/home-2/banner.jpg)}
 .banner-area-two{height:800px}
 .banner-area-two .banner-text{text-align:left;margin-top:-45px}
 .banner-area-two .banner-text .banner-form-area{border-radius:0}
